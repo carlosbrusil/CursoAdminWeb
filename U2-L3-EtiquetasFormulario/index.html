@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,userscalable=no">
+    <title>Etiquetas de formulario</title>
+  </head>
+  <body>
+    <h1>Etiquetas de Formulario</h1>
+    <form>
+      <fieldset>
+          <legend>Ejemplos de Inputs</legend>
+          <label for="autor">Autor del trabajo<br/></label>
+          <input type="text" disabled value="Carlos Brusil" id="autor">
+          <label for="direccion"><br/>Dirección:<br/></label>
+          <input type="text" placeholder="Ingrese calle y nro, o sector"  id="direccion">
+          <p>Seleccion de colores<br/>
+          <input type="color">
+          </p>
+          <p>Fecha<br/>
+          <input type="date">
+          </p>
+          <p>Fecha y hora<br/>
+          <input type="datetime">
+          </p>
+          <p>Fecha y hora local<br/>
+          <input type="datetime-local">
+          </p>
+          <label for="variable1">Número<br/></label>
+          <input type="number" min="0" max="20" step="2"id="variable1">
+          <label for="rango1"><br/>Rango entre 1 y 20 <br/></label>
+          <input type="range" min="1" max="20" id="rango1">
+          <p>Archivo<br/>
+          <input type="file">
+          </p>
+          <p>Mes<br/>
+          <input type="month">
+          </p>
+          <p>email<br/>
+          <input type="email">
+          </p>
+          <p>Resetear<br/>
+          <input type="reset">
+          </p>
+          <p>Boton Html<br/>
+          <input type="button" value="Accion 1">
+          </p>
+          <select>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+          </select>
+          <p>Area texto<br/>
+            <textarea name="Area de texto" rows="8" cols="50"></textarea>
+            </p>
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>
