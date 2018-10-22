@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="twitter:" content="width=device-width,userscalable=no">
+    <meta name="author" content="Carlos Brusil">
+    <title>ETIQUETA SVG</title>
+  </head>
+  <body>
+    <h1>Mas Atributos Etiqueta SVG</h1>
+    <svg style="border:2px solid green;" width="100" height="100">
+      <image width="80px" height="80px" xlink:href="img/pajaro1.svg"></image>
+
+    </svg>
+          <li>circulo rectangulo poligono</li><br/>
+          <svg width="1200" height="300">
+            <g id="Grupo1" fill="blue" stroke="red" stroke-width="2">
+              <title>Aplicacion de etiquetas complementarias svg</title>
+                <desc>hecho por carlos brusil</desc>
+                <circle cx="50" cy="50" r="40" />
+                <rect x= "500" y="70" width="100" height="50" />
+                <polygon points="100,110 200,120 300,180 200,210" />
+            </g>
+          </svg>
+
+
+          <li>polyline ellipse  linea</li><br>
+          <svg width="500" height="400">
+            <g id="Grupo2" fill="green" stroke="black" stroke-width="1">
+              <polyline points="100,210 150,220 300,259 250,280" fill="none"/>
+            <ellipse cx="200" cy="55" rx="100" ry="50" />
+            <line x10"50" y1="320" x2="300" y2="370" />
+          </g>
+          </svg>
+          <svg width="1300" height="200">
+            <defs>
+                <radialGradient id="Grad1">
+                  <stop offset="20%"  stop-color="#39F"/>
+                  <stop offset="90%"   stop-color="#F9F"/>
+                  <polygon id="triang1" points="500,10 560,110 440,110" fill="url(#Grad1)" />
+              </radialGradient>
+            </defs>
+            <rect x="100" y="50" width="100" height="50" fill="url(#Grad1)" stroke="red" stroke-with="1"/>
+            <circle cx="300" cy="150" r="50" fill="url(#Grad1)"/>
+            <use x="400" y=100  xlink:href="#triang1"/>
+            <use x="550" y=100  xlink:href="#triang1"/>
+            <use x="700" y=100  xlink:href="#triang1"/>
+
+
+          </svg>
+    </g>
+    </ol>
+  </body>
+</html>
