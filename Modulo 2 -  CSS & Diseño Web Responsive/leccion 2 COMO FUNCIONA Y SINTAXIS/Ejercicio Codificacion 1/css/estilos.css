@@ -1,0 +1,14 @@
+html{
+  color:white;
+}
+body{
+  background-color: green;
+  font-family: verdana;
+}
+a{
+  color:inherit;
+}
+div{
+  margin-top:10px;
+  margin-left: 40px;
+}
